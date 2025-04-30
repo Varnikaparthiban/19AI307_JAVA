@@ -16,21 +16,38 @@ To write a Java program that creates a StringBuilder object using a given string
  ```
 /*
 Program to implement a StringBuilder Object Reference in Java
-Developed by: 
-RegisterNumber:  
+Developed by: VARNIKA.P
+RegisterNumber:  212223240170
 */
 ```
 
 ## Sourcecode.java:
 
-
-
+```
+import java.util.*;
+public class java
+{
+    public static void main(String args[])
+    {
+        Scanner sc=new Scanner(System.in);
+        String s=sc.nextLine();
+        StringBuilder sb=new StringBuilder();
+        String[] w=s.split(" ");
+        for(String word : w)
+        {
+            sb.append(word).append("\n");
+        }
+        System.out.print(sb.toString());
+    }
+}
+```
 
 
 
 
 ## OUTPUT:
 
+![image](https://github.com/user-attachments/assets/dddacdf0-18a4-4bcb-969d-5757aba6e0bd)
 
 
 ## RESULT:
