@@ -55,7 +55,7 @@ int a = sc.nextInt();
 
 ## OUTPUT:
 
-
+![image](https://github.com/23008344/19AI307_JAVA/blob/0fe86f88fa7955b5c31305285c32f34c4471377b/Module-01/DAY-2/Screenshot%202025-04-30%20105846.png)
 
 ## RESULT:
 Thus, the Java program to get values of variables 'a' and 'b' and then check if both the conditions 'a < 50' and 'a < b' are true is created successfully.
