@@ -21,13 +21,28 @@ To create a java program using StringTokenizer class that tokenizes a string "My
  ```
 /*
 Program to implement a String Tokenizer using Java
-Developed by: 
-RegisterNumber:  
+Developed by: VARNIKA P
+RegisterNumber: 212223240170 
 */
 ```
 
 ## Sourcecode.java:
 
+```
+import java.util.StringTokenizer;
+
+public class TokenizeString {
+    public static void main(String[] args) {
+        String input = "My name is Java Programming";
+
+        StringTokenizer tokenizer = new StringTokenizer(input);
+
+        while (tokenizer.hasMoreTokens()) {
+            System.out.println(tokenizer.nextToken());
+        }
+    }
+}
+```
 
 
 
@@ -36,6 +51,7 @@ RegisterNumber:
 
 ## OUTPUT:
 
+![image](https://github.com/user-attachments/assets/eca1099c-f968-428e-937c-54116b9d2a96)
 
 
 ## RESULT:
