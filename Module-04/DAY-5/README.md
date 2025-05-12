@@ -20,8 +20,8 @@ To write a parameterized constructor in the Laptop class that initializes the br
  ```
 /*
 Program to implement a Parameterized Constructor Using Java
-Developed by: AKSHAYAA M
-RegisterNumber: 212222230009
+Developed by: VARNIKA.P
+RegisterNumber: 212223240170
 */
 ```
 
