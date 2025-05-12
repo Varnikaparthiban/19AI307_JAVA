@@ -81,7 +81,7 @@ public class Main
 
 ## OUTPUT:
 
-https://github.com/Varnikaparthiban/19AI307_JAVA/tree/93df47a4fc307de17937f157561b1e6a4473842c/Module-04/DAY-2
+![image](https://github.com/Varnikaparthiban/19AI307_JAVA/tree/93df47a4fc307de17937f157561b1e6a4473842c/Module-04/DAY-2)
 
 ## RESULT:
 Thus the Java program to implement the inheritance concept for employee details was  executed successfully.
