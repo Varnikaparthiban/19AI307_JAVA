@@ -1,48 +1,59 @@
 # Ex.No:4(D) FINAL & STATIC IN JAVA
 
 ## AIM:
-   To create a Java program to perform final & static keyword for below situation Employee object contains member 'Emp_Id'. It contains object named name, which contains its own informations such as Fname, Mname, Lname.
- 
+    Create a final class 'Company' with Company Name,Company Id and Address as its member, make Company_Id as final variable with value "ED12G45" and write print() to display its member in the Output.Create a Main class and access print() of Company class.
+   
 ## ALGORITHM :
-1.	Start the Program.
-2.	Define class `Name`:
--	a) Declare three `String` variables: `Fname`, `Mname`, and `Lname`
--	b) Define method `dispName(String fn, String mn, String ln)`:
--	i) Print the full name using the passed parameters `fn`, `mn`, and `ln`
-3.	Define class `Employee`:
--	a) Declare an integer variable `Emp_Id`
--	b) Create an instance of `Name` called `obj`
--	c) Define method `disp(int id)`:
--	i) Print the employee ID
--	ii) Create a new `Name` object and call `dispName("B", "Leo", "John")` to display the name
-4.	Define `Main` class with `main` method:
--	a) Create an `Employee` object `emp`
--	b) Call `emp.disp(101)` to display the employee details
-5.	End
 
-
-
-
-
+1.Start the program
+2.Define the Company class as final:
+3.Declare the member variables:
+       *String Company_Id = "ED12G45"; (final variable to store the company ID)
+       *String name = "ABC Foods"; (to store the company name)
+       *String addr = "Chennai"; (to store the company address)
+4.Define a method print() to display the company details:
+5.Print Company_Id, name, and addr.
+6.Define the Main class:
+       In the main method:  Create an instance of the Company class (obj).
+       Call the print() method of the Company class using the obj instance to display the company details.
+7.End
 
 ## PROGRAM:
  ```
 /*
 Program to implement a final & Static using Java
-Developed by: 
-RegisterNumber:  
+Developed by: VARNIKA.P
+RegisterNumber:  212223240170
 */
 ```
 
 ## Sourcecode.java:
 
-
-
-
-
+```java
+final class Company
+{
+    String Company_Id="ED12G45";
+    String name="ABC Foods";
+    String addr="Chennai";
+    
+    void print()
+    {
+        System.out.println("Company Details are,"+"\nId is "+Company_Id+"\nName is "+name+"\nAddress is "+addr);
+    }
+}
+public class Main{
+public static void main(String[] args)
+{
+    Company obj=new Company();
+    obj.print();
+}
+}
+```
 
 
 ## OUTPUT:
+
+![image](https://github.com/user-attachments/assets/a6e20852-5a7a-47cf-bb26-728edfac0d97)
 
 
 
