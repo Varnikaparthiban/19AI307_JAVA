@@ -72,7 +72,7 @@ public class Main {
 
 ## OUTPUT:
 
-![image](https://github.com/Varnikaparthiban/19AI307_JAVA/tree/6c4d4ea1ce0afd843397a3695055ea3c78edff5b/Module-05/DAY-2)
+![image](https://github.com/Varnikaparthiban/19AI307_JAVA/blob/3f992e33e2354ddea237114579540428905821cf/Module-05/DAY-2/Screenshot%202025-05-12%20112642.png)
 
 ## RESULT:
 Thus a java program to display the value of volume of cylinder get the radius and height value as input and use tightly encapsulated class was executed successfully.
