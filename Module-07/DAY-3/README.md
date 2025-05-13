@@ -32,7 +32,27 @@ RegisterNumber:
 
 ## Sourcecode.java:
 
-
+```java
+import java.util.*;
+    public class Multi extends Thread
+    {  
+        Scanner sc=new Scanner(System.in);
+        public void run()
+        {
+            String s=sc.nextLine();
+            String r=sc.next();
+            System.out.println("Student Name: "+s);
+            System.out.print("Roll No: "+r);
+        }
+        
+    
+    public static void main(String args[])
+    {  
+       Multi t=new Multi();
+       t.start();
+     }  
+    }
+```
 
 
 
@@ -40,6 +60,7 @@ RegisterNumber:
 
 ## OUTPUT:
 
+![image](https://github.com/user-attachments/assets/3b935721-7a21-48f8-b392-18b3df699f93)
 
 
 ## RESULT:
