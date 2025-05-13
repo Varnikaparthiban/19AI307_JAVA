@@ -25,8 +25,8 @@
  ```
 /*
 Program to implement a Thread concepts using Java
-Developed by: 
-RegisterNumber:  
+Developed by: VARNIKA.P
+RegisterNumber:  212223240170
 */
 ```
 
