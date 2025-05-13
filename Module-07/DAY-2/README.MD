@@ -39,7 +39,7 @@ RegisterNumber:
 
 ## OUTPUT:
 
-![images](https://github.com/Varnikaparthiban/19AI307_JAVA/tree/869d0179a6c9dfed26c9336a37093104b3fd7a2a/Module-07/DAY-2)
+![images](https://github.com/Varnikaparthiban/19AI307_JAVA/blob/ca61e838b25da2c41398af9bcf71a024fe705278/Module-07/DAY-2/Screenshot%202025-05-13%20093854.png)
 
 ## RESULT:
 Thus the Java program to demonstrate control flow of try-catch-finally clause when NumberFormatException occur in try block and handled in catch block was executed successfully.
