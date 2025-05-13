@@ -27,14 +27,37 @@ RegisterNumber:
 
 ## Sourcecode.java:
 
+```JAVA
+import java.util.Scanner;
 
+public class Sum {
+    public static int sum(int a, int b) {
+        return a + b;
+    }
 
+    public static int sum(int a, int b, int c) {
+        return a + b + c;
+    }
+
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        int num1 = scanner.nextInt(); 
+        int num2 = scanner.nextInt(); 
+        int num3 = scanner.nextInt(); 
+        int result1 = sum(num1, num2);         
+        int result2 = sum(num1, num2, num3);   
+        System.out.println(result1);
+        System.out.println(result2);
+    }
+}
+```
 
 
 
 
 ## OUTPUT:
 
+![image](https://github.com/user-attachments/assets/c9e05556-0653-49a9-89c4-511f787430dd)
 
 
 ## RESULT:
