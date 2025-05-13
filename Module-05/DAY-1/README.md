@@ -78,4 +78,4 @@ public class EmployeMain {
 
 
 ## RESULT:
-Thus , the  java program to display name and location of the employee and use the encapsulation concepts executed successfully.
+Thus , the  java program to display name and location of the vehicle and use the encapsulation concepts executed successfully.
