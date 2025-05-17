@@ -17,22 +17,34 @@ To create a java program to append a NUMBER in a file “testout.txt” using Wr
  ```
 /*
 Program to implement a IO File Reader/Writer using Java
-Developed by: 
-RegisterNumber:  
+Developed by: VARNIKA.P
+RegisterNumber:  212223240170
 */
 ```
 
 ## Sourcecode.java:
 
 
+```JAVA
+ try
+             {
+                Writer w1=new FileWriter("testout.txt",true);
+                w1.append("1234567890");
+                w1.close();
+                System.out.println("Append the character in the File Successfully");
 
-
+               
+  
+                }
+                catch(Exception e){System.out.println(e);}
+               
+```
 
 
 
 ## OUTPUT:
 
-
+![images](https://github.com/Varnikaparthiban/19AI307_JAVA/blob/af258dccf4766bef69409d75f1c916cbe90ae9de/Module-08/DAY-2/Screenshot%202025-05-17%20105753.png)
 
 ## RESULT:
 Thus, the java program to append a NUMBER in a file “testout.txt” using Writer.was executed and verified successfully
