@@ -19,20 +19,50 @@ To write a Java program that takes continuous input from the user using InputStr
  ```
 /*
 Program to implement a INPUT STREAM READER
-Developed by: 
-RegisterNumber:  
+Developed by: VARNIKA.P
+RegisterNumber: 212223240170 
 */
 ```
 
 ## Sourcecode.java:
 
+```JAVA
 
 
+import java.io.*;
+public class ReadConsole {
 
+   public static void main(String args[]) throws IOException {
+      InputStreamReader r=null;
+      
+
+      try {
+         
+         r=new InputStreamReader(System.in);
+         char c;
+         do{
+             c=(char)r.read();
+             System.out.print(c);
+         }while(c!='#');
+      }
+      finally 
+      {
+          if(r!=null)
+          {
+              r.close();
+          }
+      }
+         
+      
+   }
+}
+```
 
 
 
 ## OUTPUT:
+
+![image](https://github.com/user-attachments/assets/2331cff2-0d66-4abd-b959-39cd8b22dc68)
 
 
 
