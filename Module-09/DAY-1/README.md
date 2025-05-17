@@ -1,26 +1,45 @@
 # Ex.No:9(A)          DATA I/O STREAM
 ## AIM:
-To create a Java Program to store a String Value in a file "testout.txt" using Data Output Stream.
+To create a Java Program For  displaying number of bytes & read the String and Double value data in the  file "OutputFile.txt" using DataInputStream
+Note:Assume OutputFile.txt file created. In the DataInputStream use Output.txt file as arguments
+Initialize DataInputStream object name as "di" 
 
 ## ALGORITHM :
-1.  The program creates testout.txt and initializes FileOutputStream and DataOutputStream. It prompts the user to enter a string, writes it to testout.txt using writeUTF(), and then closes the streams.
-2.	It reopens testout.txt with FileInputStream and DataInputStream, reads the stored string using readUTF(), displays it, and then closes the streams.
-3.	It deletes testout.txt.
-4.	After deletion, it tries to read an integer from testout.txt, which causes an error because the file no longer exists.
-5.	The program catches and displays an IOException message if any file-related error occurs, including the attempt to read after deletion.
 
+1.Start the program
+
+2.Open the file "OutputFile.txt" using FileInputStream.
+
+3.Wrap the FileInputStream with a DataInputStream.
+
+4.Check the number of bytes available to read from the file.
+
+5.Print the available bytes.
+
+6.Close the streams
+
+7.End
 
 ## PROGRAM:
  ```
 /*
 Program to implement a DATA I/O STREAM using Java
-Developed by: 
-RegisterNumber:  
+Developed by: VARNIKA.P
+RegisterNumber: 212223240170  
 */
 ```
 
 ## Sourcecode.java:
 
+```JAVA
+FileInputStream fi=new FileInputStream("OutputFile.txt");
+DataInputStream di=new DataInputStream(fi);
+System.out.println("Available number of bytes to read: "+di.available());
+System.out.println("Read UFT: "+di.readUTF());
+System.out.println("Read double: "+di.readDouble());
+di.close();
+fi.close();
+```
 
 
 
@@ -29,6 +48,7 @@ RegisterNumber:
 
 ## OUTPUT:
 
+![image](https://github.com/user-attachments/assets/06a73c2e-f2d6-4b4e-9165-ee32fa32bed0)
 
 
 ## RESULT:
