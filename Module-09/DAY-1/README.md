@@ -52,5 +52,5 @@ fi.close();
 
 
 ## RESULT:
-Thus the Java Program to store a String Value in a file "testout.txt" using DataOutputStream was executed and verified successfully.
+Thus the Java Program  displaying number of bytes & read the String and Double value data in the  file "OutputFile.txt" using DataInputStream was executed and verified successfully.
 
