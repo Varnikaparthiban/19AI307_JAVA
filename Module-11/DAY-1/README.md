@@ -18,21 +18,41 @@
  ```
 /*
 Program to implement a JAVA TREESET using Java
-Developed by: 
-RegisterNumber:  
+Developed by: VARNIKA.P
+RegisterNumber:  212223240170
 */
 ```
 
 ## Sourcecode.java:
 
 
+```JAVA
 
-
+import java.util.*;
+public class main
+{
+    public static void main(String args[])
+    {
+        Scanner sc=new Scanner(System.in);
+        TreeSet <Integer> ts=new TreeSet<>();
+        int n=sc.nextInt();
+        for(int i=0;i<n;i++)
+        {
+            ts.add(sc.nextInt());
+        }
+        for(Integer ele : ts)
+        {
+            System.out.println(ele);
+        }
+    }
+}
+```
 
 
 
 ## OUTPUT:
 
+![image](https://github.com/user-attachments/assets/86da1608-4b24-4327-bea7-46190e4d17ba)
 
 
 ## RESULT:
