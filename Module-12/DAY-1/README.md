@@ -4,34 +4,56 @@
 
 ## ALGORITHM :
 
-1.	Start the Program
-2.	Import `java.util.*` and `java.util.Map.Entry`
-3.	Define `Example6` class with `main` method:
--	a) Initialize `TreeMap<String, String> tree_map1`
--	b) Read integer `size` for entries count.
-4.	Use a loop to:
--	a) Read `String` values `n1` and `s1`
--	b) Insert each pair into `tree_map1`
-5.	Print `tree_map1` as `"Original TreeMap content: "`
-6.	Define `sort_key` class that implements `Comparator<String>`:
--	Override `compare` method to compare `String` values `str1` and `str2` using
-`compareTo`
-7.	End
+1.Start the program
 
+2.Create a TreeMap<Integer, String>
 
+3.Read n (number of entries)
+
+4.Loop n times:
+ a. Read key a (Integer)
+ b. Read value b (String)
+ c. Insert (a, b) into TreeMap
+
+5.For each entry in TreeMap:
+ a. Print key => value
+
+6.End
 
 ## PROGRAM:
  ```
 /*
 Program to implement a JAVA TREE MAP using Java
-Developed by: 
-RegisterNumber:  
+Developed by: VARNIKA.P
+RegisterNumber:  212223240170
 */
 ```
 
 ## Sourcecode.java:
 
+```JAVA
+import java.util.*;
+public class java
+{
+    public static void main(String args[])
+    {
+        Scanner sc=new Scanner(System.in);
+        TreeMap<Integer,String> tm=new TreeMap<Integer,String>();   
+        int n=sc.nextInt();
+        for(int i=0;i<n;i++)
+        {
+            Integer a=sc.nextInt();
+            String b=sc.next();
+            tm.put(a,b);
+        }
+        for(Map.Entry m:tm.entrySet())
+        {
+            System.out.println(m.getKey()+"=>"+m.getValue());
+        }
 
+    }
+}
+```
 
 
 
