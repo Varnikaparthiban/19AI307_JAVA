@@ -70,6 +70,6 @@ public class main
 
 
 ## RESULT:
-Thus the java program to create vector and read the elements for two vector in java collection.(Use equals method )was executed successfully.
+Thus the java program to Write a java program to display the added elements from the Priority Queue and to insert a particular element into the Priority Queue and then display the elements after clear the priority queue and then display it.(Use clear() method) was executed successfully.
 
 
