@@ -23,22 +23,38 @@ To Write a java program to compare two elements , if element is greater means di
  ```
 /*
 Program to implement a COMPARABLE & COMPARATOR INTERFACE using Java
-Developed by: 
-RegisterNumber:  
+Developed by: VARNIKA.P
+RegisterNumber:  212223240170
 */
 ```
 
 ## Sourcecode.java:
 
 
+```java
 
+import java.util.*;
+public class ComparableExample {
 
+    public static void main(String args[]) {
+        Scanner sc=new Scanner(System.in);
+        
+        Integer valA = Integer.valueOf(sc.nextInt());
+        Integer valB = Integer.valueOf(sc.nextInt());
 
+        int comparisonA = valA.compareTo(valB);
+        int comparisonB = valB.compareTo(valA);
 
+        System.out.println(comparisonA);
+        System.out.println(comparisonB);
+    }
+}
+
+```
 
 ## OUTPUT:
 
-
+![image](https://github.com/Varnikaparthiban/19AI307_JAVA/blob/612864e0151e60492aa03e7dd3531072bc15ad3d/Module-12/DAY-2/Screenshot%202025-05-19%20143026.png)
 
 ## RESULT:
 Thus the java program to compare two elements , if element is greater means display 1 otherwise display -1 use only comparable interface in java collection was executed successfully
