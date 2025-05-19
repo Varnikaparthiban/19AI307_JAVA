@@ -58,5 +58,5 @@ public class Area {
 
 
 ## RESULT:
-Thus, the Java program to print area of rectangle by defining instance method and local variable value as 10,20 was created successfully.
+Thus, the Java program to print area of square  by defining instance method and local variable was created successfully.
 
