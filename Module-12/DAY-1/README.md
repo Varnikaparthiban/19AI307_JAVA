@@ -61,6 +61,7 @@ public class java
 
 ## OUTPUT:
 
+![image](https://github.com/user-attachments/assets/afd14ab5-ad1f-481e-bd26-086dafeef264)
 
 
 ## RESULT:
