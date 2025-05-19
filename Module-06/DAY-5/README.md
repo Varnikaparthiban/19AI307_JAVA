@@ -22,8 +22,8 @@ To write a Java Program for below Scenario. Media Class have constructor to disp
  ```
 /*
 Program to implement a Multiple Inheritance
-Developed by: AKSHAYAA M
-RegisterNumber: 212222230009
+Developed by: VARNIKA.P
+RegisterNumber: 212223240170
 */
 ```
 
